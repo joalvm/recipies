@@ -67,3 +67,94 @@
         @apply bg-background text-foreground;
     }
 }
+
+@layer base {
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Thin.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-UltraLight.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Light.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Regular.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Medium.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-SemiBold.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Bold.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-Black.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/node_modules/geist/dist/fonts/geist-sans/Geist-UltraBlack.woff2)
+            format('woff2');
+    }
+
+    @font-face {
+        font-family: 'Geist Mono';
+        font-display: swap;
+        font-weight: 100 900;
+        src: url(/node_modules/geist/dist/fonts/geist-mono/GeistMono-Variable.woff2)
+            format('woff2');
+    }
+}
