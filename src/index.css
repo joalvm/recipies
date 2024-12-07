@@ -158,3 +158,9 @@
             format('woff2');
     }
 }
+
+#root,
+html,
+body {
+    height: 100%;
+}
